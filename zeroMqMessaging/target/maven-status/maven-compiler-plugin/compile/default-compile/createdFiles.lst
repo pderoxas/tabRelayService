@@ -1,0 +1,4 @@
+com\paypal\merchant\retail\zeroMqMessaging\MessageQueueManager.class
+com\paypal\merchant\retail\zeroMqMessaging\Publisher.class
+com\paypal\merchant\retail\zeroMqMessaging\MessageQueueManager$1.class
+com\paypal\merchant\retail\zeroMqMessaging\Subscriber.class

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.paypal.merchant.retail.services.tabRelay.TabRelayServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.384 sec

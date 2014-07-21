@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.paypal.merchant.retail.services.tabRelay.TabRelayServiceTest" duration-ms="2936" started-at="2014-07-09T19:38:57Z" finished-at="2014-07-09T19:39:00Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="2936" started-at="2014-07-09T19:38:57Z" finished-at="2014-07-09T19:39:00Z">
+      <class name="com.paypal.merchant.retail.services.tabRelay.TabRelayServiceTest">
+        <test-method status="PASS" signature="testRestart()[pri:0, instance:com.paypal.merchant.retail.services.tabRelay.TabRelayServiceTest@4820ea4]" name="testRestart" duration-ms="7" started-at="2014-07-09T15:38:57Z" finished-at="2014-07-09T15:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestart -->
+        <test-method status="PASS" signature="testStart()[pri:0, instance:com.paypal.merchant.retail.services.tabRelay.TabRelayServiceTest@4820ea4]" name="testStart" duration-ms="2917" started-at="2014-07-09T15:38:57Z" finished-at="2014-07-09T15:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="testStop()[pri:0, instance:com.paypal.merchant.retail.services.tabRelay.TabRelayServiceTest@4820ea4]" name="testStop" duration-ms="0" started-at="2014-07-09T15:39:00Z" finished-at="2014-07-09T15:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+      </class> <!-- com.paypal.merchant.retail.services.tabRelay.TabRelayServiceTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.paypal.merchant.retail.services.tabRelay.TabRelayServiceTest -->
+</testng-results>

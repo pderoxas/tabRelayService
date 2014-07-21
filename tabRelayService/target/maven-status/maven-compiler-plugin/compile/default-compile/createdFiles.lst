@@ -1,0 +1,4 @@
+com\paypal\merchant\retail\tabRelayService\TabRelayService.class
+com\paypal\merchant\retail\utils\PropertyManager.class
+com\paypal\merchant\retail\tabRelayService\Main.class
+com\paypal\merchant\retail\tabRelayService\PublishTabsRunnable.class

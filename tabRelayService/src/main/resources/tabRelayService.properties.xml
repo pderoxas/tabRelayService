@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties
+        [
+                <!ELEMENT properties ( comment?, entry* ) >
+                <!ATTLIST properties version CDATA #FIXED "1.0">
+                <!ELEMENT comment (#PCDATA) >
+                <!ELEMENT entry (#PCDATA) >
+                <!ATTLIST entry key CDATA #REQUIRED>
+                ]>
+<properties>
+    <comment>
+        This file must exist in the classpath OR be defined as -Dproperties.xml=/path/to/tabRelayService.properties.xml
+        via command line.
+    </comment>
+
+    <entry key="getTabs.interval.seconds">30</entry>
+    <entry key="getTabsDelta.endpoint">tcp://*:5563</entry>
+    <entry key="getTabsState.endpoint">tcp://*:5564</entry>
+
+</properties>

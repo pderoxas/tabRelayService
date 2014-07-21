@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns="http://merchantretailsdk.paypal.com/v1.0/">
+    <PayPal.Service.Settings>
+        <Service id="openIdService">
+            <uri>https://www.stage2p1270.stage.paypal.com/webapps/auth/protocol/openidconnect/v1/</uri>
+            <receiveTimeOut>30000</receiveTimeOut>
+            <connectionTimeOut>30000</connectionTimeOut>
+        </Service>
+        <Service id="hereAPIService">
+            <uri>https://www.stage2p1270.stage.paypal.com/webapps/hereapi/merchant/v1/</uri>
+            <receiveTimeOut>30000</receiveTimeOut>
+            <connectionTimeOut>30000</connectionTimeOut>
+        </Service>
+        <Service id="posAPIService">
+            <uri>https://www.stage2p1270.stage.paypal.com:10684/PointOfSale/</uri>
+            <receiveTimeOut>30000</receiveTimeOut>
+            <connectionTimeOut>30000</connectionTimeOut>
+        </Service>
+        <Service id="ecAPIService">
+            <uri>https://api.stage2p1270.stage.paypal.com/2.0/</uri>
+            <receiveTimeOut>30000</receiveTimeOut>
+            <connectionTimeOut>30000</connectionTimeOut>
+        </Service>
+    </PayPal.Service.Settings>
+    <PayPal.Retailer.Stores.Settings>
+        <!-- Store Id is Merchant defined.  StoreId is 1:1 to locationId-->
+        <Store id="SanJose">
+            <!-- PayerId for "rwong-US-TMOIxxxxxxxF-1373571438-1@paypal.com" -->
+            <payerId>WMYG6GJCNHBFW</payerId>
+            <locationId>HBM97SXK6M6GU</locationId>
+            <!--<locationId>5QZEHPNLTA8W4</locationId>-->
+
+
+            <!-- SOAP BASED services -->
+            <userId>rwong-dropbox_api1.paypal.com</userId>
+            <password>L77X3MXZW855DK9K</password>
+            <signature>AlVFrkn0564O9zWrO6YDGRgnXlUBAnMMTxsZWeYs5KctZRkpTOM.bpEc</signature>
+
+            <!-- REST BASED services -->
+            <refreshToken>gulkjC8xxZsiP278DYd8RkaNKmzH68zknh87wkcp0pWvPOeQ-7U3eerxaWRCt64TTUhRxg</refreshToken>
+            <clientId>mispos</clientId>
+            <clientSecret>mispos</clientSecret>
+        </Store>
+
+    </PayPal.Retailer.Stores.Settings>
+</Configuration>
